@@ -6,9 +6,8 @@ public class Money {
 
    static Money ZERO = new Money(BigDecimal.valueOf(0));
    static Money QUARTER_DINAR = new Money(BigDecimal.valueOf(0.25));
-   static Money HALF_DINAR = new Money(BigDecimal.valueOf(0.5));
-   static Money DINAR = new Money(BigDecimal.valueOf(1));
-
+   static Money HALF_DINAR = new Money(BigDecimal.valueOf(0.50));
+   static Money DINAR = new Money(BigDecimal.valueOf(1.0));
 
    BigDecimal value;
 
@@ -67,5 +66,18 @@ public class Money {
       BigDecimal value = money.getValue();
 
       return this.getValue().compareTo(value) == 0;
+   }
+
+   @Override
+   public boolean equals(Object obj) {
+      if (obj == null) {
+         return false;
+      }
+
+      if (!Money.class.isAssignableFrom(obj.getClass())) {
+         return false;
+      }
+      final Money other = (Money) obj;
+      return isEqual(other);
    }
 }
