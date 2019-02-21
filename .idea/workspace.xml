@@ -18,8 +18,8 @@
       <file leaf-file-name="SnackMachine.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/progressoft/induction/SnackMachine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-77">
-              <caret line="61" column="57" selection-start-line="61" selection-start-column="57" selection-end-line="61" selection-end-column="57" />
+            <state relative-caret-position="570">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2950#2951#0" expanded="true" />
@@ -29,18 +29,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SnackMachineTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/progressoft/induction/SnackMachineTest.java">
+      <file leaf-file-name="SnackType.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/progressoft/induction/SnackType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="89" selection-start-line="89" selection-end-line="89" />
+            <state relative-caret-position="45">
+              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Machine.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/progressoft/induction/Machine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Money.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/progressoft/induction/Money.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-469">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MoneyUnit.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/progressoft/induction/MoneyUnit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#592#593#0" expanded="true" />
-                <element signature="e#638#639#0" expanded="true" />
-                <element signature="e#701#702#0" expanded="true" />
-                <element signature="e#774#775#0" expanded="true" />
+                <element signature="e#193#194#0" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Snack.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/progressoft/induction/Snack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -364,48 +397,47 @@
       <option name="presentableId" value="Default" />
       <updated>1550764045999</updated>
       <workItem from="1550764048052" duration="1100000" />
-      <workItem from="1550767759870" duration="6482000" />
+      <workItem from="1550767759870" duration="6907000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SnackMachineTest_when_insert_money_then_money_in_transaction_should_be_equal_to_the_money_inserted - 2019.02.21 at 20h 31m 36s.xml">
-      <configuration name="SnackMachineTest.when_insert_money_then_money_in_transaction_should_be_equal_to_the_money_inserted" configurationId="JUnit" />
+    <history-entry file="MoneyTest_add_two_money_should_be_correct - 2019.02.21 at 21h 03m 42s.xml">
+      <configuration name="MoneyTest.add_two_money_should_be_correct" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SnackMachineTest_snack_machine_accepts_predefined_money_units - 2019.02.21 at 20h 31m 47s.xml">
-      <configuration name="SnackMachineTest.snack_machine_accepts_predefined_money_units" configurationId="JUnit" />
+    <history-entry file="MoneyTest_comparing_money_is_less_than_null_should_be_false - 2019.02.21 at 21h 03m 47s.xml">
+      <configuration name="MoneyTest.comparing_money_is_less_than_null_should_be_false" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SnackMachineTest_snack_machine_does_not_accept_non_predefined_money_units - 2019.02.21 at 20h 31m 54s.xml">
-      <configuration name="SnackMachineTest.snack_machine_does_not_accept_non_predefined_money_units" configurationId="JUnit" />
+    <history-entry file="MoneyTest_comparing_money_is_less_than_bigger_money_should_be_false - 2019.02.21 at 21h 03m 53s.xml">
+      <configuration name="MoneyTest.comparing_money_is_less_than_bigger_money_should_be_false" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SnackMachineTest_insert_null_money_should_fail - 2019.02.21 at 20h 32m 03s.xml">
-      <configuration name="SnackMachineTest.insert_null_money_should_fail" configurationId="JUnit" />
+    <history-entry file="MoneyTest_comparing_money_is_less_than_null_should_be_false - 2019.02.21 at 21h 03m 57s.xml">
+      <configuration name="MoneyTest.comparing_money_is_less_than_null_should_be_false" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SnackMachineTest_new_snack_machine_should_have_three_types_of_snacks - 2019.02.21 at 20h 32m 10s.xml">
-      <configuration name="SnackMachineTest.new_snack_machine_should_have_three_types_of_snacks" configurationId="JUnit" />
+    <history-entry file="MoneyTest_comparing_money_is_less_than_smaller_money_should_be_true - 2019.02.21 at 21h 04m 00s.xml">
+      <configuration name="MoneyTest.comparing_money_is_less_than_smaller_money_should_be_true" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SnackMachineTest_buy_without_inserting_money_should_fail - 2019.02.21 at 20h 32m 18s.xml">
-      <configuration name="SnackMachineTest.buy_without_inserting_money_should_fail" configurationId="JUnit" />
+    <history-entry file="MoneyTest_comparing_money_is_less_than_same_amount_of_money_should_be_false - 2019.02.21 at 21h 04m 04s.xml">
+      <configuration name="MoneyTest.comparing_money_is_less_than_same_amount_of_money_should_be_false" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SnackMachineTest_buying_a_snack_after_inserting_just_enough_money_then_the_money_inside_should_equals_to_money_inserted - 2019.02.21 at 20h 32m 28s.xml">
-      <configuration name="SnackMachineTest.buying_a_snack_after_inserting_just_enough_money_then_the_money_inside_should_equals_to_money_inserted" configurationId="JUnit" />
+    <history-entry file="MoneyTest_subtract_two_money_should_be_correct - 2019.02.21 at 21h 04m 08s.xml">
+      <configuration name="MoneyTest.subtract_two_money_should_be_correct" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SnackMachineTest_buying_a_snack_after_inserting_just_enough_money_then_snack_quantity_should_be_decreased - 2019.02.21 at 20h 33m 08s.xml">
-      <configuration name="SnackMachineTest.buying_a_snack_after_inserting_just_enough_money_then_snack_quantity_should_be_decreased" configurationId="JUnit" />
+    <history-entry file="MoneyTest_subtract_money_from_smaller_money_should_fail - 2019.02.21 at 21h 04m 12s.xml">
+      <configuration name="MoneyTest.subtract_money_from_smaller_money_should_fail" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SnackMachineTest_buying_a_snack_after_inserting_just_enough_money_then_the_money_inside_should_equals_to_money_inserted - 2019.02.21 at 20h 38m 47s.xml">
-      <configuration name="SnackMachineTest.buying_a_snack_after_inserting_just_enough_money_then_the_money_inside_should_equals_to_money_inserted" configurationId="JUnit" />
+    <history-entry file="MoneyTest - 2019.02.21 at 21h 04m 17s.xml">
+      <configuration name="MoneyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SnackMachineTest_buying_a_snack_after_inserting_just_enough_money_then_the_money_inside_should_equals_to_money_inserted - 2019.02.21 at 20h 40m 49s.xml">
-      <configuration name="SnackMachineTest.buying_a_snack_after_inserting_just_enough_money_then_the_money_inside_should_equals_to_money_inserted" configurationId="JUnit" />
+    <history-entry file="SnackMachineTest - 2019.02.21 at 21h 04m 27s.xml">
+      <configuration name="SnackMachineTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7582000" />
+    <option name="totallyTimeSpent" value="8007000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -421,7 +453,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -458,24 +490,6 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/progressoft/induction/Money.java</url>
-          <line>35</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/progressoft/induction/Money.java</url>
-          <line>37</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/progressoft/induction/SnackMachine.java</url>
-          <line>117</line>
-          <properties />
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/progressoft/induction/SnackMachineTest.java</url>
           <line>87</line>
           <properties />
@@ -492,72 +506,6 @@
           <line>90</line>
           <properties />
           <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/progressoft/induction/SnackMachine.java</url>
-          <line>79</line>
-          <properties />
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/progressoft/induction/SnackMachine.java</url>
-          <line>119</line>
-          <properties />
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/progressoft/induction/SnackMachine.java</url>
-          <line>81</line>
-          <properties />
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/progressoft/induction/SnackMachine.java</url>
-          <line>86</line>
-          <properties />
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/progressoft/induction/SnackMachine.java</url>
-          <line>89</line>
-          <properties />
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/progressoft/induction/SnackMachine.java</url>
-          <line>87</line>
-          <properties />
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/progressoft/induction/SnackMachine.java</url>
-          <line>96</line>
-          <properties />
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/progressoft/induction/SnackMachine.java</url>
-          <line>97</line>
-          <properties />
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/progressoft/induction/Money.java</url>
-          <line>67</line>
-          <properties />
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/progressoft/induction/Money.java</url>
-          <line>65</line>
-          <properties />
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/progressoft/induction/SnackMachine.java</url>
-          <line>90</line>
-          <properties />
-          <option name="timeStamp" value="49" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="50" />
@@ -595,27 +543,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/progressoft/induction/Snack.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="600">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/progressoft/induction/SnackMachineTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
           <folding>
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/progressoft/induction/SnackType.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/progressoft/induction/MoneyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/progressoft/induction/Machine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/progressoft/induction/Money.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-469">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -630,41 +599,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/progressoft/induction/Machine.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/progressoft/induction/Snack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/progressoft/induction/Money.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/progressoft/induction/MoneyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/progressoft/induction/SnackMachine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-77">
-          <caret line="61" column="57" selection-start-line="61" selection-start-column="57" selection-end-line="61" selection-end-column="57" />
+        <state relative-caret-position="570">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2950#2951#0" expanded="true" />
@@ -673,17 +618,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/progressoft/induction/SnackMachineTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/progressoft/induction/SnackType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-            <element signature="e#774#775#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
         </state>
       </provider>
     </entry>

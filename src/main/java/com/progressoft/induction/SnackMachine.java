@@ -41,8 +41,6 @@ public class SnackMachine implements Machine {
       return moneyInTransaction;
    }
 
-   public Money change () { return change; }
-
    Snack chewingGums () {
       return chewingGums;
    }
@@ -87,7 +85,6 @@ public class SnackMachine implements Machine {
       moneyInside.setValue(newValue);
       change(snack);
       moneyInTransaction = new Money(BigDecimal.valueOf(0));
-      //MONEY_IN_TRANSACTION.setValue(BigDecimal.valueOf(0));
       snack.decreaseQuantity();
    }
 
