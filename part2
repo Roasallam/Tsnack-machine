@@ -1,0 +1,46 @@
+ProgressSoft Task: PART 2:
+
+1- What are Mutation Observers in JavaScript?
+   The MutationObserver interface provides users to avoid polling for changes in the DOM,
+for example: 
+   there is a list item which changes as required frequently,
+in javaScript code, I assign that list item as a target node that will be observed for configured mutations, such as attributes, 
+   Then I create a function to define the behavior which should execute when mutations are 
+   observed, and pass it to an observer instance, finaly I start observing the target node.
+
+-----------------------------------------------------------------------------------------
+
+2- Explain 3 different CSS selectors:
+A) element selector:
+     - it is used to set the style for HTML element by writing the element name.
+     - for example: 
+                   lable {
+                   font-family: arial;
+                   }
+
+B) id selector:
+     - it is used to set the style for HTML element with specified id attribute.
+     - for example:
+                   #line1 {
+                   font-family: arial;
+                   }
+
+C) class selector:
+     - it is used to set the style for HTML elements which have specified their class attribute.
+     - for example:
+                   .new_class {
+                   font-family: arial;
+                   }
+
+-----------------------------------------------------------------------------------------
+
+3- What is the difference between SessionStorage and LocalStorage in HTML5?
+   Before HTML5, application data had to be stored in cookies, and each cookie has an expiration date, but 
+   As for LocalStorage, the data is stored until it is explicitly deleted. Changes made are
+ saved and available for all current and future visits to the site.
+   While in SessionStorage the data is not persistent i.e. it will be lost once the window 
+ tab is closed.
+
+   It also may differ from each other withen different browsers, each storage may has a different storage limit.
+
+...
