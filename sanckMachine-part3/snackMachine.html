@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Snack Machine</title>
+	<link rel="stylesheet" type="text/css" href="smstyle.css">
+</head>
+<body>
+
+	<form method="POST" action="">
+
+		<div style="width: auto">
+
+			<div class="snacks" style="float: left; margin-left: 200px;">
+
+				<div class="snacks">
+					<label> <input type="radio" name="chewingGum">  Chewing Gum <br /> available:
+		 			</label> 
+		 			<label id="chewingGumsQuantity">
+		 				 10
+		 			</label>
+				</div>
+
+				<div class="snacks">
+					<label> <input type="radio" name="chips">  Chips <br /> available:  
+	 				</label> 
+	 				<label id="chipsQuantity">
+	 					10
+	 				</label>			
+	 			</div>
+
+	 			<div class="snacks">
+					<label> <input type="radio" name="chocolate">  Chocolate <br /> available:  
+		 			</label> 
+		 			<label id="chocolateQuantity">
+		 				10
+		 			</label>
+				</div>
+			</div>
+
+			<div class="info" style="margin-left: 600px;">
+
+				<div class="info">
+					<input type="text" name="moneyInside" cols="20" placeholder="Money Inside Machine">
+				</div>
+
+				<div class="info">
+					<input type="text" name="moneyInTransaction" cols="20" placeholder="Money In Transation">
+				
+				</div>
+
+				<div class="info">
+					<input type="text" name="change" cols="20" placeholder="Change">
+				</div>
+			</div>
+
+		</div>	
+
+		<div class="money">
+
+			<input type="submit" value="0.25 JD" class="moneyUnits" onclick="insertMoney()">
+			<input type="submit" value="0.5 JD" class="moneyUnits" onclick="insertMoney()">
+			<input type="submit" value="1.0 JD" class="moneyUnits" onclick="insertMoney()">
+			<input type="submit" value="5.0 JD" class="moneyUnits" onclick="insertMoney()">
+			<input type="submit" value="10.0 JD" class="moneyUnits" onclick="insertMoney()">
+
+		</div>
+
+		<input type="submit" value="BUY SNACK" class="moneyUnits" onclick="buySnack()" style="margin-left: 530px;
+    padding-top: 10px; width: 150px; height: 50px;">
+
+	</form>
+
+</body>
+</html>
