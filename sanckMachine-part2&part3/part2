@@ -6,7 +6,7 @@ for example:
    there is a list item which changes as required frequently,
 in javaScript code, I assign that list item as a target node that will be observed for configured mutations, such as attributes, 
    Then I create a function to define the behavior which should execute when mutations are 
-   observed, and pass it to an observer instance, finaly I start observing the target node.
+   observed, and pass it to an observer instance, finally I start observing the target node.
 
 -----------------------------------------------------------------------------------------
 
@@ -14,7 +14,7 @@ in javaScript code, I assign that list item as a target node that will be observ
 A) element selector:
      - it is used to set the style for HTML element by writing the element name.
      - for example: 
-                   lable {
+                   label {
                    font-family: arial;
                    }
 
@@ -41,6 +41,6 @@ C) class selector:
    While in SessionStorage the data is not persistent i.e. it will be lost once the window 
  tab is closed.
 
-   It also may differ from each other withen different browsers, each storage may has a different storage limit.
+   It also may differ from each other within different browsers, each storage may has a different storage limit.
 
 ...
